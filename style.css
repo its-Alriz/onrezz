@@ -1,0 +1,36 @@
+*,html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #006BFF;
+}
+
+
+.container-navbar {
+    height: 10vh;
+    padding-left: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.onrezz-navbar {
+    width: 30vh;
+}
+
+.onrezz-navbar:hover {
+    filter: brightness(0%);
+    transition: 0.5s ease-in-out ;
+}
+
+.container-content1 {
+    height: 40vh;
+}
+
+.container-content2 {
+    background-color: white;
+    height: 110vh;
+    border-top-left-radius: 10vh;
+    border-top-right-radius: 10vh;
+}
